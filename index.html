@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Logo Section -->
+    <div class="logo-container">
+        <img src="ooo.jpg" alt="Logo" class="logo">
+    </div>
+
+    <h1 class="bounce">Dynamic Resume Builder 2025</h1>
+    
+    <div class="resume-builder">
+        <!-- Form Section -->
+        <div class="form-section">
+            <h2>Enter <em>Your</em> Details</h2>
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Your Full Name">
+            <label>Job Title:</label>
+            <input type="text" id="job-title" placeholder="e.g., Frontend Developer">
+            <label>Education:</label>
+            <textarea id="education" placeholder="Your Education"></textarea>
+            <label>Institution Name:</label>
+            <input type="text" id="institution" placeholder="Institution or University Name">
+            <label>Experience:</label>
+            <textarea id="experience" placeholder="Your Professional Experience"></textarea>
+            <label>Projects:</label>
+            <textarea id="projects" placeholder="List of Your Projects"></textarea>
+            <label>Skills:</label>
+            <input type="text" id="skills" placeholder="Skills (e.g., HTML, CSS, JavaScript)">
+        </div>
+
+        <!-- Resume Preview Section -->
+        <div class="resume-preview">
+            <h2>Live <strong>Resume Preview</strong></h2>
+            <p><strong>Name:</strong> <span id="preview-name"></span></p>
+            <p><strong>Job Title:</strong> <span id="preview-job-title"></span></p>
+            <p><strong>Education:</strong> <span id="preview-education"></span></p>
+            <p><strong>Institution:</strong> <span id="preview-institution"></span></p>
+            <p><strong>Experience:</strong> <span id="preview-experience"></span></p>
+            <p><strong>Projects:</strong> <span id="preview-projects"></span></p>
+            <p><strong>Skills:</strong> <span id="preview-skills"></span></p>
+        </div>
+        
+        <!-- Button to Download as PDF -->
+        <button id="downloadBtn" class="animated-button">Download as PDF</button>
+    </div>
+
+    <!-- Footer with Social Media Links -->
+    <footer class="footer">
+        <p>Connect with us:</p>
+        <a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="https://linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
